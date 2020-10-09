@@ -1,1 +1,97 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #eaeaea;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 750px;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.info, .navigation {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.info {
+  padding: 40px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.heading *, .founder * {
+  margin-bottom: 20px;
+}
+
+
+.navigation {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.list-name {
+  padding-left: 10px;
+}
+
+.nav-section * {
+  margin-bottom: 20px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-name {
+  font-size: 1rem;
+  font-weight: normal;
+  color: lightgray;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  color: black;
+  padding-left: 20px;
+}
+
+.nav-item:hover {
+  border-left: 2px solid black;
+}

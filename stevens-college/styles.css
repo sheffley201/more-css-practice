@@ -1,1 +1,37 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 40%;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #EAEAEA;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+img {
+  width: 750px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+a {
+  background-color: maroon;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
