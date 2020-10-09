@@ -1,28 +1,53 @@
-<!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Airbnb</title>
+  </head>
+  <body>
+    <div class='main-grid'>
+      <div class="main-one">
+        <h1>Book unique homes and experiences.</h1>
+      </div>
+      <div class="main-two">
+        <form>
+          <label for='where' class='where'>
+            Where
+            <input id='where' name='where' type='text' placeholder="Anywhere" />
+          </label>
 
+          <label for='check-in' class="check-in">
+            Check In
+            <input id='check-in' name='check-in' type='text' placeholder="mm/dd/yyyy" />
+          </label>
 
-Book unique homes and experiences.
+          <label for='check-out' class='check-out'>
+            Check Out
+            <input id='check-out' name='check-out' type='text' placeholder="mm/dd/yyyy" />
+          </label>
 
+          <label for='guests' class="guests">
+            Guests
+            <input id='guests' name='guests' type='number' placeholder="1 guest" />
+          </label>
 
-Where
-[Text Input]
+          <input type="submit" value='Search' class='submit' />
+        </form>
+      </div>
 
-Check In
-[Date Input]
-
-Check Out
-[Date Input]
-
-Guests
-[Number Input]
-
-Search
-[Submit Input]
-
-
-Explore Airbnb
-Homes
-Experiences
-Restaurants
-
+      <div class="main-three">
+        <h2>Explore Airbnb</h2>
+      </div>
+      <div class="main-four">
+      <nav>
+        <ul>
+          <li>Homes</li>
+          <li>Experiences</li>
+          <li>Restaurants</li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </body>
+</html>
