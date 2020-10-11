@@ -7,7 +7,7 @@
 html {
   font-family: sans-serif;
   font-size: 20px;
-  margin: 40px 10px;
+
 }
 
 .main-grid {
@@ -16,20 +16,32 @@ html {
   grid-row-gap: 30px;
 }
 
-h1{
+.main-one {
+  background-color: #AAAAAA;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
   font-size: 1.7rem;
+  margin-left: 10px;
+  color: white;
 }
 
 form {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
+  margin: 0 10px;
 }
 
 label {
-  margin: 40px 0;
+  margin: 40px 0px;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 input {
@@ -51,12 +63,16 @@ input::placeholder {
   grid-column: 1 / 3;
 }
 
-.check-in {
+.check-in, input[name='check-in'] {
   margin-right: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.check-out {
+.check-out, input[name='check-out'] {
   margin-left: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .submit {
@@ -68,7 +84,7 @@ input::placeholder {
 }
 
 h2 {
-  margin-top: 20px;
+  margin: 20px 0 0 10px;
 }
 
 ul {
@@ -76,6 +92,7 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   list-style: none;
   grid-gap: 20px;
+  margin: 0 10px;
 }
 
 li {
